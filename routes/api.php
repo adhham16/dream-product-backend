@@ -13,8 +13,7 @@ Route::prefix('v1')->group(function () {
 
         Route::post('/admin/logout', [AdminAuthController::class, 'logout']);
 
-        Route::apiResource('products', ProductController::class)
-            ->except(['create', 'edit']);
+        Route::apiResource('products', ProductController::class);
     });
 
 });
