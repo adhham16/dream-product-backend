@@ -2,16 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Laravel Admin Auth & Product API</title>
-<style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
-    code { background: #eee; padding: 2px 5px; }
-    h1, h2, h3 { color: #333; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-    th { background: #f4f4f4; }
-</style>
 </head>
 <body>
 
