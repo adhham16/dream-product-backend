@@ -9,7 +9,7 @@ Route::prefix('v1')->group(function () {
     Route::post('/admin/login', [AdminAuthController::class, 'login']);
 
     // Protected admin routes (admin only)
-    Route::middleware(['auth:sanctum', 'ability:admin'])->group(function () {
+    Route::middleware(['auth:sanctum'])->group(function () {
 
         Route::post('/admin/logout', [AdminAuthController::class, 'logout']);
 

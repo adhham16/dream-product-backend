@@ -6,6 +6,6 @@ class CategoryFilter
 {
     public function apply($query, $value)
     {
-        return $query->where('category', $value);
+        return $query->where('category','like', '%'.$value.'%');
     }
 }
